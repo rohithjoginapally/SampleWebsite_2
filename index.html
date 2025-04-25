@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Kore AI Bot</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to My Kore AI Bot</h1>
+      <p>Click below to start interacting with the bot.</p>
+    </div>
+
+    <!-- Kore AI Web Channel Script -->
+    <link
+      rel="stylesheet"
+      href="https://demo-bots.kore.ai:443/webclient/UI/dist/kore-ai-sdk.min.css"
+    />
+    <script src="https://demo-bots.kore.ai:443/api/platform/websdkjs/3700be4b02714189b86a6dead4bc1b5dcefb0400f73a4e708e5cc6d936d31a59ste8"></script>
+    <script>
+      KoreSDK.show(KoreSDK.chatConfig);
+    </script>
+  </body>
+</html>
